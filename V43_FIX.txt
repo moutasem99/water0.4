@@ -1,0 +1,18 @@
+V43 BUILD FIX
+
+The previous GitHub build reached Vite but failed because native-bridge.js used:
+  await SystemBars.setStyle(...)
+
+at module top level while Vite was targeting ES2020.
+
+V43 changes it to a non-blocking Promise call:
+  SystemBars.setStyle(...).catch(() => {});
+
+No POS feature or Android behavior is removed.
+
+You can either:
+A) upload this V43 package to your repository, or
+B) edit src/native-bridge.js in GitHub and make only this one change.
+
+Then rerun:
+Actions > Build Water Station APK > Run workflow

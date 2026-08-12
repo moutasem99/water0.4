@@ -1,0 +1,19 @@
+V46 is rebuilt directly from V38, before the native scroll-control CSS was introduced.
+
+NO new page scroll rules are added:
+- no overflow changes on html/body/app/main
+- no overscroll-behavior changes
+- no page-level touch-action restrictions
+- no runtime scroll forcing
+
+Kept:
+- normal V38 scrolling
+- Capacitor shell
+- haptics
+- splash screen
+- Android back button
+- keyboard behavior
+- system bars / safe areas
+- product-card font-size fix
+
+Artifact: WaterStation-V46-APK

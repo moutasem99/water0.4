@@ -1,0 +1,35 @@
+V54 — visual refinement update
+
+SETTINGS
+- New two-column settings layout on tablets/desktop; one column on phones.
+- Cleaner header and grouped visual hierarchy.
+- New theme picker with labeled palettes and 3-color previews.
+- Added Sky, Indigo, Amber and Slate themes while preserving existing themes.
+- Custom colors moved into an expandable advanced section.
+- Products, inventory, customers, maintenance, backup and reset sections visually clarified.
+- Existing controls and IDs are preserved.
+
+REPORTS
+- Cash sales are now the primary large number.
+- Click and total sales are secondary.
+- Expenses, wages, personal draws and operating net profit are compact KPIs.
+- No accounting formula was changed.
+
+INVOICE COLORS
+- Cash invoices: soft green + green right rail.
+- Click invoices: soft blue + blue right rail.
+- Cancelled invoices: soft red/gray + red right rail.
+
+DAY CLOSE SUMMARY
+- Completely redesigned.
+- Cash from sales is the main number.
+- Click, total sales, expenses, draws, wages and coupons are compact.
+- Separate morning/evening cash-reconciliation cards show:
+  opening float, cash sales, expected cash, actual cash and cash difference.
+- PDF, image and share remain directly accessible.
+- Final close button is visually separated as a destructive/final action.
+
+All V53 export fixes, product images, tutorial behavior, POS logic and normal scrolling remain.
+
+GitHub artifact:
+WaterStation-V54-APK

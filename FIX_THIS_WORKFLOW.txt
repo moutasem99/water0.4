@@ -1,0 +1,11 @@
+Replace your existing GitHub workflow with:
+.github/workflows/build-android-apk.yml
+
+Key fixes:
+- Node.js 24
+- actions/setup-node@v7
+- npm package cache disabled because this project currently has no package-lock.json
+- npm install is used instead of npm ci
+
+Then commit to main and run:
+Actions > Build Water Station APK > Run workflow

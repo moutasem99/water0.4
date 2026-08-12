@@ -1,0 +1,37 @@
+{
+  "name": "water-station-pos-native",
+  "version": "55.0.0",
+  "androidVersionCode": 55,
+  "private": true,
+  "description": "Water Station POS - Capacitor Android native shell",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android:add": "npx cap add android",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:run": "npm run build && npx cap sync android && npx cap run android",
+    "android:assets": "npx capacitor-assets generate --android",
+    "android:build": "npm run build && npx cap sync android && npx cap build android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/core": "^8.5.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/haptics": "^8.0.0",
+    "@capacitor/keyboard": "^8.0.0",
+    "@capacitor/share": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@fontsource/tajawal": "^5.3.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.0",
+    "vite": "^7.1.0"
+  }
+}

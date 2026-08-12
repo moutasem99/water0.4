@@ -1,0 +1,29 @@
+{
+  "appId": "com.waterstation.pos",
+  "appName": "محطة المياه",
+  "webDir": "dist",
+  "backgroundColor": "#f2f8f9",
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "style": "DARK",
+      "hidden": false,
+      "animation": "NONE"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 700,
+      "launchAutoHide": false,
+      "launchFadeOutDuration": 180,
+      "backgroundColor": "#0e7490",
+      "showSpinner": false
+    },
+    "Keyboard": {
+      "resizeOnFullScreen": true
+    }
+  }
+}

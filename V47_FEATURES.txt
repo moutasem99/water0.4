@@ -1,0 +1,19 @@
+V47 major feature upgrade
+
+Added:
+- In-app numeric keypad for cart quantities and all number inputs
+- First-run store-name welcome screen
+- Interactive tutorial (relaunchable from Settings)
+- Native PDF generation using the rendered A4 summary
+- Minimal financial PNG: cash, personal draws, expenses, wages, net profit
+- Native Android share sheet for the image (Bluetooth can be selected there)
+- Excel monthly/yearly export with multiple organized worksheets
+- Store logo upload in Settings
+
+Important Android icon note:
+Android launcher icons are compiled into the APK. Arbitrary uploaded images cannot
+replace the launcher icon instantly at runtime. V47 lets the user change the in-app
+store logo. Launcher icon changes require a rebuilt APK or pre-bundled alternate icons.
+
+Artifact:
+WaterStation-V47-APK

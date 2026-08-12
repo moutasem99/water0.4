@@ -1,0 +1,2 @@
+If Android Studio does not work, start with README_CLOUD_BUILD.md.
+Use GitHub Actions to build the APK in the cloud.

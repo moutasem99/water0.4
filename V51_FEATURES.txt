@@ -1,0 +1,20 @@
+V51 — sales top-bar redesign
+
+Only the SALES top bar was redesigned.
+
+New sales header:
+- Store logo / station name hierarchy
+- Compact POS + date subtitle
+- Smaller online/local save status
+- Quick shift, invoice-count and day-open status chips
+- Cleaner active-worker control
+- Cleaner opening-cash control
+- Prominent but compact morning shift handoff
+- Evening shift confirmation state
+- Responsive mobile/tablet sizing
+
+All IDs and business logic for worker, opening cash and shift handoff are preserved.
+All V50 features remain unchanged.
+
+GitHub artifact:
+WaterStation-V51-APK

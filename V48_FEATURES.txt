@@ -1,0 +1,24 @@
+V48 updates
+
+1. Closing-day summary now includes:
+   - Save PDF
+   - Save financial image
+   - Share financial image
+   - Confirm closing and start new day
+
+2. True Android launcher icon switching:
+   Settings > Store logo & app icon > External app icon
+   Presets: Ocean, Navy, Emerald, Purple.
+
+Implementation:
+- Android activity-alias launcher entries
+- Native Capacitor IconSwitcher plugin
+- PackageManager component enable/disable
+- GitHub workflow patches generated Android project automatically
+
+Android limitation:
+An arbitrary photo uploaded at runtime cannot become the true launcher icon.
+True runtime switching is supported among icon resources bundled in the APK.
+
+Build artifact:
+WaterStation-V48-APK

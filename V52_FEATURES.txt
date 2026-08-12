@@ -1,0 +1,35 @@
+V52 — tutorial-only update
+
+No sales UI, cart, top bar, prices, reports or business logic was redesigned.
+
+Interactive tutorial now also teaches:
+
+INVENTORY
+- Navigate to Inventory.
+- Explain current worker used for matching.
+- Tap a real inventory count field.
+- Use the in-app numpad to enter a sample quantity.
+- Tap the morning/evening Save Inventory button.
+- Tutorial intercepts the save so training data is NOT written.
+
+MORNING SHIFT HANDOFF
+- Return to Sales after the morning inventory walkthrough.
+- Highlight the real Morning Shift Handoff button.
+- Open the real handoff form.
+- Explain:
+  1. Actual morning cash
+  2. Evening opening float
+  3. Receiving evening worker
+- Tap Confirm Handoff as a training action.
+- Tutorial intercepts confirmation so the real shift is NOT changed.
+
+EVENING
+- If the app is already in evening shift, tutorial explains that morning was already handed off.
+- It then teaches evening inventory and saving it before day close.
+
+Safety
+- Tutorial restores temporary cart and inventory-entry state on finish/skip.
+- No demo invoice, demo inventory record or demo shift handoff is persisted.
+
+GitHub artifact:
+WaterStation-V52-APK

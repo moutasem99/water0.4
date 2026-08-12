@@ -1,0 +1,34 @@
+V53 — reliability and usability update
+
+1) RESPONSIVE INTERACTIVE TUTORIAL
+- Spotlight is recalculated from the real DOM element every time.
+- Repositions on scroll, resize, device rotation, visual viewport changes, DOM changes and target size changes.
+- Instruction card automatically chooses above/below/left/right based on available screen space.
+- Tablet and short-landscape layouts are handled.
+- Existing interactive steps for sales, numpad, payment, inventory and shift handoff remain.
+
+2) REAL ANDROID DOWNLOADS
+- PDF, report image and Excel now use a native Capacitor DocumentExporter plugin.
+- Android 10+ writes files through MediaStore into Downloads/WaterStation.
+- Files are user-visible in the Downloads app/file manager.
+- Legacy Android fallback is included.
+- Sharing still uses the Android share sheet.
+
+3) PRODUCT PICTURES
+- Generated default illustrations are included for all 13 standard products.
+- Existing user-uploaded product images are never overwritten.
+- Missing images are filled automatically once after updating.
+
+4) REPORT DASHBOARD
+- Simplified primary view: net profit, sales, invoices, cash, Click, expenses and wages.
+- Clear payment split.
+- Compact cost/withdrawal summary.
+- Shift accounting remains visible.
+- Invoices, 7-day performance, inventory comparison, seller totals and audit log are collapsible.
+- Day closing remains at the bottom.
+
+5) ARCHIVE EXPORTS
+- Existing archive PDF/image/Excel buttons use the same native Downloads exporter.
+
+GitHub artifact:
+WaterStation-V53-APK

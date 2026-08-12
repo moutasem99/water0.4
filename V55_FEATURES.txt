@@ -1,0 +1,35 @@
+V55 — Night Mode
+
+Added a complete appearance system:
+- Light / Day mode
+- Dark / Night mode
+- Automatic mode following the Android/device dark-mode preference
+
+Settings:
+- New "App appearance" card with visual previews.
+- Current resolved appearance is shown.
+- Existing color themes remain independent of day/night mode.
+
+Dark mode covers:
+- Sales
+- Product grid
+- Cart
+- In-app numpad
+- Payment confirmation
+- Inventory
+- Reports
+- Cash/Click invoice colors
+- Archive
+- Settings
+- Tutorial
+- Modals
+- Day-close summary
+- Bottom navigation
+
+Cash invoices remain green-tinted and Click invoices blue-tinted in dark mode.
+Print/export pages remain light for readability.
+
+Existing V54 functions and business logic are unchanged.
+
+GitHub artifact:
+WaterStation-V55-APK

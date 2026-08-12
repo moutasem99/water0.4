@@ -1,0 +1,13 @@
+V49 payment-flow update
+
+- Payment method is no longer shown permanently on the sales screen.
+- Tap "Confirm sale and save invoice".
+- A dedicated confirmation modal shows the invoice total and asks:
+  * Cash (نقدي)
+  * Click (كليك)
+- Selecting either method immediately saves the invoice with that payment method.
+- +/−, in-app numpad, PDF/image/share, Excel, onboarding, launcher icons and all V48 features remain.
+- Normal scrolling remains unchanged.
+
+Build artifact:
+WaterStation-V49-APK

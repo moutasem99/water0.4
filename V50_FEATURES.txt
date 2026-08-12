@@ -1,0 +1,31 @@
+V50 — cart redesign + interactive tutorial
+
+CART
+- Clearer invoice header: number of products + number of units.
+- Modern line-item cards with product index, unit price and prominent line total.
+- Larger quantity controls.
+- Quantity number remains tappable to open the in-app numpad.
+- One-tap remove button for a cart line.
+- Quantity-discount saving is shown clearly when active.
+- Checkout area now shows total inside the confirmation button.
+- Existing invoice/payment/business logic is preserved.
+
+INTERACTIVE TUTORIAL
+- Real spotlight controls remain tappable.
+- User is asked to perform actual actions rather than only pressing Next.
+- Add a product.
+- Tap quantity.
+- Use the in-app numpad.
+- Press checkout.
+- Interact with the real Cash/Click payment screen WITHOUT saving a training invoice.
+- Navigate interactively to Inventory, Report, Archive and Settings.
+- Tutorial cart changes are restored when the tutorial ends or is skipped.
+- If the day is closed, tutorial waits for the user to open the day and then continues automatically.
+- Tutorial can still be skipped at any time.
+
+All V49/V48 features remain, including:
+PDF, financial image/share, Excel export, first-run onboarding, launcher icons,
+payment method on confirmation, and normal scrolling.
+
+GitHub artifact:
+WaterStation-V50-APK
